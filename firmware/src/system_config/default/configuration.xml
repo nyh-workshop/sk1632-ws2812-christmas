@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration version="1.0.7.16">
+  <General>
+    <HarmonyPath path="../.."/>
+    <ForceOptimization flag="true"/>
+  </General>
+  <Manifest>
+    <Files>
+      <File>
+        <Name>drv_tmr.h</Name>
+        <Path>Header Files/framework/driver/tmr</Path>
+      </File>
+      <File>
+        <Name>sys_devcon.c</Name>
+        <Path>Source Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>drv_tmr.c</Name>
+        <Path>Source Files/framework/driver/tmr/src/dynamic</Path>
+      </File>
+      <File>
+        <Name>sys_dma.h</Name>
+        <Path>Header Files/framework/system/dma</Path>
+      </File>
+      <File>
+        <Name>sys_ports.c</Name>
+        <Path>Source Files/framework/system/ports/src</Path>
+      </File>
+      <File>
+        <Name>sys_devcon.h</Name>
+        <Path>Header Files/framework/system/devcon</Path>
+      </File>
+      <File>
+        <Name>system.h</Name>
+        <Path>Header Files/framework/system</Path>
+      </File>
+      <File>
+        <Name>sys_module.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>sys_ports.h</Name>
+        <Path>Header Files/framework/system/ports</Path>
+      </File>
+      <File>
+        <Name>sys_devcon_pic32mx.c</Name>
+        <Path>Source Files/framework/system/devcon/src</Path>
+      </File>
+      <File>
+        <Name>sys_dma.c</Name>
+        <Path>Source Files/framework/system/dma</Path>
+      </File>
+      <File>
+        <Name>driver.h</Name>
+        <Path>Header Files/framework/driver</Path>
+      </File>
+      <File>
+        <Name>sys_common.h</Name>
+        <Path>Header Files/framework/system/common</Path>
+      </File>
+      <File>
+        <Name>sys_int_pic32.c</Name>
+        <Path>Source Files/framework/system/int/src</Path>
+      </File>
+      <File>
+        <Name>sys_int.h</Name>
+        <Path>Header Files/framework/system/int</Path>
+      </File>
+    </Files>
+    <Templates>
+      <Template>
+        <Name>drv_oc_static.c</Name>
+        <Path>Source Files/app/system_config/default/framework/driver/oc/src</Path>
+        <Checksum>9A6FD3C4C15D630D6FA808F8ED06C663</Checksum>
+        <ProjectFileChecksum>8453577F2DA404159521910D24D421E2</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>sys_ports_static.c</Name>
+        <Path>Source Files/app/system_config/default/framework/system/ports/src</Path>
+        <Checksum>DEEC778D182E0EFACB7166EF30C6D654</Checksum>
+      </Template>
+      <Template>
+        <Name>system_init.c</Name>
+        <Path>Source Files/app/system_config/default</Path>
+        <Checksum>0D75231D81C534F8BE63401FF0715D87</Checksum>
+        <ProjectFileChecksum>3CE6206573C982DFE65441DAEAF65829</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>drv_oc_static.h</Name>
+        <Path>Header Files/app/system_config/default/framework/driver/oc</Path>
+        <Checksum>3825C9EFDE04EA1FE6DB72CF2BB657F6</Checksum>
+      </Template>
+      <Template>
+        <Name>main.c</Name>
+        <Path>Source Files/app</Path>
+      </Template>
+      <Template>
+        <Name>system_definitions.h</Name>
+        <Path>Header Files/app/system_config/default</Path>
+        <Checksum>C3C7FAB32783C97C19EE5864F4155691</Checksum>
+      </Template>
+      <Template>
+        <Name>system_exceptions.c</Name>
+        <Path>Source Files/app/system_config/default</Path>
+        <Checksum>C111969CA43D6CEA1E9E33A6164E7AE0</Checksum>
+      </Template>
+      <Template>
+        <Name>app.c</Name>
+        <Path>Source Files/app</Path>
+      </Template>
+      <Template>
+        <Name>system_tasks.c</Name>
+        <Path>Source Files/app/system_config/default</Path>
+        <Checksum>BE644D0142ACA48D9CA2E6255A02CDBA</Checksum>
+        <ProjectFileChecksum>3BC08D522D4E52D9071E4D2A161A42A4</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>system_config.h</Name>
+        <Path>Header Files/app/system_config/default</Path>
+        <Checksum>C7F2E3ADEACA11F13382DCD9343FA2A0</Checksum>
+        <ProjectFileChecksum>58BF8FD63AA36655830439165DC9B197</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>app.h</Name>
+        <Path>Header Files/app</Path>
+      </Template>
+      <Template>
+        <Name>sys_clk_static.h</Name>
+        <Path>Header Files/app/system_config/default/framework/system/clk</Path>
+        <Checksum>B4BD59D8D7C4DA95DC5E3B57755FD352</Checksum>
+      </Template>
+      <Template>
+        <Name>system_interrupt.c</Name>
+        <Path>Source Files/app/system_config/default</Path>
+        <Checksum>B392D31FFD76740C6EADD56E69A9CCE7</Checksum>
+        <ProjectFileChecksum>D72EA53BBAB064895D4A06D5CA87E479</ProjectFileChecksum>
+      </Template>
+      <Template>
+        <Name>sys_clk_static.c</Name>
+        <Path>Source Files/app/system_config/default/framework/system/clk/src</Path>
+        <Checksum>A0AE6A7C71AF906122FDC5BCFF27499B</Checksum>
+      </Template>
+    </Templates>
+    <Libraries>
+      <Library value="../../../../bin/framework/peripheral/PIC32MX250F128B_peripherals.a"/>
+    </Libraries>
+  </Manifest>
+</configuration>
